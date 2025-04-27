@@ -5,6 +5,9 @@
 
 package com.veterinaria.demo.repository;
 
+import com.veterinaria.demo.model.Dueno;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 /**
  *
  * @author fercr
