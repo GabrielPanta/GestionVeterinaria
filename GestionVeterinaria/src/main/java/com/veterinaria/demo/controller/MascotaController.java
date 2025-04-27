@@ -27,12 +27,15 @@ public class MascotaController {
         this.mascotaRepository = mascotaRepository;
     }
 
+
     @GetMapping("/todos")
+
     public List<Mascota> getAll() {
         return mascotaRepository.findAll();
     }
 
     @PostMapping("/registrar")
+
     public Mascota create(@RequestBody Mascota mascota) {
         return mascotaRepository.save(mascota);
     }
